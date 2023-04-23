@@ -2,10 +2,10 @@
 ; PULMANO, Tricia 
 ; REGOSO, Ma. Angelika
 ;
-; A simple program that load values of potentiometer into b1 register,
-; load DEC(95) into b0 register, add DEC(1) into b0 register, 
+; A simple program that load values of potentiometer into b1 register, prints b1 value to debugger
+; load DEC(95) into b0 register, add DEC(1) into b0 register, prints b0 value to debugger
 ; adds the values of b0 and b1 register and store it as new value b0 register, 
-; and prints it to the debugger
+; and prints new value of b0 it to the debugger
 ;
 ; For added features, different LED is lighted depending on the sum 
 ; Values:
