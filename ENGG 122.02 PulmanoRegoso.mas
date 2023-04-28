@@ -39,8 +39,8 @@ linebreak:
 	STRING ""        ;Some string value
 
 red: 
-	HIGH    3       ; turn off red
-	LOW 	4	; turn on yellow
+	HIGH    3       ; turn on red
+	LOW 	4	; turn off yellow
 	low 	5	; turn off green
 
 	JMP main        ; Jump to main
@@ -61,4 +61,3 @@ green:
 	HIGH	5	; turn on green
 
 	JMP main        ; Jump to main
-
